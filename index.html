@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <canvas id="gameCanvas" class="gameCanvas"></canvas>
+
+    <div class="livescore" id="livescore">0</div>
+
+    <div class="modalLight" id="myModalLight">
+        <div class="modal">
+            <div class="startgame" id="newgame">
+                <div id="gratulation">Gratulujeme, dokončil jsi hru.</div>
+                <div id="show1">
+                    <p>V této zábavné a dynamické hře ovládáte mrštnou veverku, která běhá v lese a snaží se chytit padající žaludy. Hlavním cílem hry je zachytit co nejvíce žaludů, ale pozor – ne všechny žaludy jsou stejné!</p>
+
+                    <p><strong>Zlaté žaludy:</strong> Když veverka chytí zlatý žalud, získává extra body. Tyto žaludy představují vzácnou odměnu a je důležité se snažit je chytit.</p>
+                    
+                    <p><strong>Černé žaludy:</strong> Naopak, když veverka chytí černý žalud, body se jí odečítají. Černé žaludy jsou nežádoucí a hráč se jim musí vyhnout, aby si udržel vysoké skóre.</p>
+                    
+                    <p><strong>Konec hry:</strong> Pokud veverka nechytí bodovaný žalud, hra končí. To přidává hře prvek napětí a strategie, protože musíte být neustále pozorní.</p>
+                    
+                    <p>Hru ovládáte pomocí šipek na klávesnici – šipka doprava a doleva umožňuje veverce pohybovat se po obrazovce a chytat padající žaludy. Šipka nahoru umožní veverce skákat.</p><p> Rychlá reakce a strategické rozhodování jsou klíčové pro dosažení vysokého skóre a překonání vlastních rekordů. Připravte se na výzvu a pomozte veverce chytit co nejvíce žaludů!</p></div>
+                <div id="show2">
+                    <h3>Level 2</h3>
+                    <p>Žaludy máte nasbírané. V této části je vaším úkolem nakrmit malou hladovou veverušku. Pozor ale na padající černé žaludy, odečítají vám body.</p>
+              
+                </div>
+                <a href="#" class="myButton" id="start" ><span>nová hra</span></a>
+                <a href="#" class="myButton" id="nextLevel" ><span>další level</span></a>
+            </div>
+            <div class="score" id="score"></div>
+           
+        </div>
+    </div>
+    
+    <script src="js/squirrel.js"></script>
+    <script src="js/wolf.js"></script>
+    <script src="js/bullet.js"></script>
+    <script src="js/acorn.js"></script>
+    <script src="js/mygame.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
